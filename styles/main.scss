@@ -33,14 +33,10 @@ h1 {
 	position: relative;
 	top: 3.125rem;
 	@include tablet {
-		/**
-			TODO: Fix me
-		**/
+		flex-direction: row;
 	}
 	@include desktop {
-		/**
-			TODO: Fix me
-		**/
+		flex-direction:row;
 	}
 }
 
@@ -52,14 +48,10 @@ h1 {
 	background: $linkedin-accent-blue;
 	border-radius: 0.3125rem;
 	@include tablet {
-		/**
-			TODO: Fix me
-		**/
+		width: 40vw;
 	}
 	@include desktop {
-		/**
-			TODO: Fix me
-		**/
+		width: 30vw;
 	}
 	&__img {
 		text-align: center;
